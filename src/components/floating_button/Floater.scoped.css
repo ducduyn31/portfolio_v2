@@ -1,0 +1,20 @@
+.floater {
+    position: fixed;
+    transition: all 300ms ease;
+    z-index: 100;
+}
+
+.float-base {
+    border-radius: 50%;
+    background-color: pink;
+    width: 80px;
+    height: 80px;
+    cursor: move;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    position: absolute;
+    top: 0;
+}
+
+.float-base:hover {
+    transform: scale(1.1);
+}

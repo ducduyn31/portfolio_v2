@@ -1,0 +1,52 @@
+nav {
+    margin: 50px 10px 20px 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+    display: flex;
+    justify-content: center;
+}
+
+ul li {
+    display: inline;
+    margin: 0 10px 0 10px;
+    font-size: 1.5em;
+}
+
+a {
+    text-decoration: none;
+    display: block;
+    padding: 8px;
+    font-family: Roboto, sans-serif;
+
+}
+
+a:link {
+    color: #b4b4b4;
+}
+
+a:visited {
+    color: #b4b4b4;
+}
+
+a:hover {
+    color: #2d2d2d;
+}
+
+.activated {
+    color: #2d2d2d;
+    text-decoration: underline;
+}
+
+.btn {
+    margin: 0 10px 0 0;
+}
+

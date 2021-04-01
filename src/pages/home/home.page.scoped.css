@@ -1,0 +1,17 @@
+.hello {
+    font-size: 3em;
+}
+
+.description {
+    margin: 20vh 0 0 70px;
+    height: 70vh;
+}
+
+.make {
+    font-size: 2em;
+}
+
+.btn {
+    background-color: red;
+
+}
