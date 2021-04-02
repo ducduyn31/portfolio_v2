@@ -2,11 +2,16 @@ import React from 'react';
 import './App.css';
 import {AppProvider} from './contexts/app.context';
 import {BrowserRouter as Router, Redirect, Route, Switch,} from 'react-router-dom';
-import {MyRoute} from "./interfaces/MyRoute";
-import {routes} from "./routes/app.routing";
-import Header from "./components/header/Header";
+import {MyRoute} from './interfaces/MyRoute';
+import {routes} from './routes/app.routing';
+import Header from './components/header/Header';
 import Floater from './components/floating_button/Floater';
 import PageSettings from './components/page_settings/PageSettings';
+import {library} from '@fortawesome/fontawesome-svg-core';
+import {faCoffee, faHome, faTerminal, faUserPlus} from '@fortawesome/free-solid-svg-icons';
+
+/* Import fontawesome icon */
+library.add(faHome, faCoffee, faTerminal, faUserPlus)
 
 function RouteWithSubRoutes(route: MyRoute) {
     return (

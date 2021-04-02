@@ -1,10 +1,10 @@
-import React, {Context} from 'react';
+import React from 'react';
 
 import './PageSettings.scoped.css';
-import {AppContext, AppContextState} from '../../contexts/app.context';
+import {AppContext, AppContextState, OperatingMode} from '../../contexts/app.context';
 
-const setMode = (context: A, funMode: string) => {
-    context.
+const setMode = (context: AppContextState, funMode: string) => {
+    context.mode = OperatingMode.FUN;
 }
 
 const PageSettings: React.FC<any> = () => {
